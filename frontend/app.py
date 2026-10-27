@@ -35,8 +35,8 @@ with st.sidebar:
         "k (chunks to retrieve)",
         min_value=1,
         max_value=10,
-        value=4,
-        help="Number of policy chunks fetched from the vector store. Four is the value the pipeline was evaluated with."
+        value=6,
+        help="Number of policy chunks fetched from the vector store. Six is the value the pipeline was evaluated with."
     )
 
     temperature = st.slider(
